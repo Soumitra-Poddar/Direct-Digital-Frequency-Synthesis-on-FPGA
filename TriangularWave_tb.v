@@ -20,5 +20,4 @@ module TriangularWave_tb();
         
         initial
         #10 resetn = 1'b1;
-        
 endmodule
