@@ -20,7 +20,7 @@ module TriangularWave_Module (
     always @(posedge clk or negedge resetn) begin
         if (!resetn) begin
             Accm    <= 24'd0;
-            FCW     <= 24'd21845;
+            FCW     <= 24'd100664;
             Tri_reg <= 17'sd0;
         end else begin
             Accm <= Accm + FCW;
